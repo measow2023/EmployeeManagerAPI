@@ -1,0 +1,7 @@
+@id = 12773ea0-3e31-4943-807d-d281eab41203
+POST http://localhost:5000/employees/{{id}}/take-vacation HTTP/1.1
+Content-Type: application/json
+
+{
+    "vacationDaysUsed": 5.5
+}

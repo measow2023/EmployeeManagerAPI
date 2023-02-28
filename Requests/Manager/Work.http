@@ -1,0 +1,7 @@
+@id = d2cec950-3e32-40e0-ae4d-0c0c836ef6ef
+POST http://localhost:5000/employees/{{id}}/work HTTP/1.1
+Content-Type: application/json
+
+{
+    "workedDays": 260
+}
