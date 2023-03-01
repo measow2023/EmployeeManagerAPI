@@ -46,7 +46,6 @@ public class EmployeeService : IEmployeeService
             FirstName = employee.FirstName,
             LastName = employee.LastName,
             EmployeeType = employee.EmployeeType,
-            WorkedDays = employee.DaysWorked.ToString(),
             VacationDaysAccumulated = string.Format("{0:0.00}", employee.VacationDaysAccumulated)
         };
     }

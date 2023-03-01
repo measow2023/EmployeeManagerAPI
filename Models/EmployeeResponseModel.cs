@@ -8,6 +8,5 @@ public class EmployeeResponseModel
     public string FirstName { get; init; }
     public string LastName { get; init; }
     public EmployeeType EmployeeType { get; set; }
-    public string WorkedDays { get; set; }
     public string VacationDaysAccumulated { get; set; }
 }
